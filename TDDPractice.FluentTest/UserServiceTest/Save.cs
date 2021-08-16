@@ -33,6 +33,7 @@ namespace TDDPractice.FluentTest.UserServiceTest
             ////Assert
             //action.Should().Throw<ArgumentNullException>();
 
+            //Act & Assert
             FluentActions.Invoking(() => userService.Save(user)).Should().Throw<ArgumentNullException>();
         }
 
@@ -49,6 +50,7 @@ namespace TDDPractice.FluentTest.UserServiceTest
             ////Assert
             //action.Should().Throw<ArgumentNullException>();
 
+            //Act & Assert
             FluentActions.Invoking(() => userService.Save(user)).Should().Throw<ArgumentNullException>();
         }
 
@@ -65,6 +67,7 @@ namespace TDDPractice.FluentTest.UserServiceTest
             ////Assert
             //action.Should().Throw<ArgumentNullException>();
 
+            //Act & Assert
             FluentActions.Invoking(() => userService.Save(user)).Should().Throw<ArgumentNullException>();
         }
 
@@ -83,6 +86,7 @@ namespace TDDPractice.FluentTest.UserServiceTest
             ////Assert
             //action.Should().Throw<ArgumentException>();
 
+            //Act & Assert
             FluentActions.Invoking(() => userService.Save(user)).Should().Throw<ArgumentException>();
         }
 
@@ -100,6 +104,7 @@ namespace TDDPractice.FluentTest.UserServiceTest
             ////Assert
             //action.Should().Throw<ArgumentException>();
 
+            //Act & Assert
             FluentActions.Invoking(() => userService.Save(user)).Should().Throw<ArgumentNullException>();
         }
 
@@ -114,6 +119,7 @@ namespace TDDPractice.FluentTest.UserServiceTest
             ////Assert
             //result.Should().BeTrue();
 
+            //Act & Assert
             FluentActions.Invoking(() => userService.Validate(user)).Should().Equals(true);
         }
 
