@@ -14,6 +14,7 @@ namespace TDDPractice
         void Delete(int id);
         void Delete(User obj);
         void Add(User obj);
+        bool UserAlreadyExcists(User user);
 
 
     }

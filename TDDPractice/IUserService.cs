@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TDDPractice
 {
-    interface IUserService
+    public interface IUserService
     {
         void Save(User user);
         bool Validate(User user);

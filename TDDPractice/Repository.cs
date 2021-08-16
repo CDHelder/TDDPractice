@@ -37,5 +37,10 @@ namespace TDDPractice
         {
             throw new NotImplementedException();
         }
+
+        public bool UserAlreadyExcists(User user)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
